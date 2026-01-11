@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Carthole</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.7;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .logo {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    
+    h1 {
+      font-size: 28px;
+      color: #1a1a2e;
+      margin-bottom: 5px;
+    }
+    
+    .subtitle {
+      color: #888;
+      font-size: 14px;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    
+    h2 {
+      font-size: 18px;
+      color: #1a1a2e;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #f0c14b;
+    }
+    
+    h2:first-of-type {
+      margin-top: 0;
+    }
+    
+    p {
+      margin-bottom: 15px;
+    }
+    
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    
+    li {
+      margin-bottom: 8px;
+    }
+    
+    .highlight {
+      background: #f0f9f0;
+      border-left: 4px solid #27ae60;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    
+    .highlight.warning {
+      background: #fff9f0;
+      border-left-color: #f0c14b;
+    }
+    
+    .contact {
+      background: #f5f5f5;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .contact a {
+      color: #8B2FC9;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 12px;
+    }
+    
+    footer a {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo">🛒</div>
+      <h1>Carthole Privacy Policy</h1>
+      <p class="subtitle">Last updated: January 2025</p>
+    </header>
+    
+    <div class="card">
+      
+      <h2>1. Introduction</h2>
+      <p>Carthole is a browser extension that helps users track their spending on quick commerce platforms (Zepto, Blinkit, Swiggy Instamart). This privacy policy explains how we handle your data.</p>
+      
+      <div class="highlight">
+        <strong>🔒 The Short Version:</strong> Your data stays on your device. We don't collect, store, or transmit any personal data to external servers. Period.
+      </div>
+      
+      <h2>2. Data Collection</h2>
+      <p>Carthole does <strong>NOT</strong> collect, store, or transmit any personal data to external servers.</p>
+      <p>All data processing happens locally on your device:</p>
+      <ul>
+        <li>Order data scraped from Zepto and Blinkit websites</li>
+        <li>Email data from Gmail (for Instamart orders only)</li>
+        <li>Computed analytics and statistics</li>
+      </ul>
+      
+      <h2>3. Gmail Access (Instamart Feature)</h2>
+      <p>For Swiggy Instamart tracking, Carthole requests read-only access to your Gmail to find Instamart delivery confirmation emails.</p>
+      
+      <div class="highlight warning">
+        <strong>📧 What we access:</strong>
+        <ul style="margin-top: 10px; margin-bottom: 0;">
+          <li>We <strong>ONLY</strong> search for emails from "noreply@swiggy.in" with "Instamart" and "delivered" in the subject</li>
+          <li>We <strong>ONLY</strong> extract order total and date from these emails</li>
+          <li>We do <strong>NOT</strong> read, store, or access any other emails</li>
+          <li>Email data is processed locally and never leaves your device</li>
+          <li>You can disconnect Gmail access at any time</li>
+        </ul>
+      </div>
+      
+      <h2>4. Data Storage</h2>
+      <ul>
+        <li>All data is stored locally in your browser using Chrome's storage API</li>
+        <li>Data is never transmitted to any external server</li>
+        <li>Data is automatically cleared when you uninstall the extension</li>
+        <li>You can clear cached data at any time from within the extension</li>
+      </ul>
+      
+      <h2>5. Data Sharing</h2>
+      <p>We do <strong>NOT</strong> share any data with third parties. Your data never leaves your device.</p>
+      
+      <h2>6. Analytics & Tracking</h2>
+      <p>Carthole does <strong>NOT</strong> use any analytics, tracking, or telemetry services. We have no idea how many people use the extension or how they use it.</p>
+      
+      <h2>7. Permissions Used</h2>
+      <p>Here's why we need each permission:</p>
+      <ul>
+        <li><strong>activeTab:</strong> To read order data from Zepto/Blinkit pages when you click "Fetch Details"</li>
+        <li><strong>scripting:</strong> To run scripts that extract order information from the page</li>
+        <li><strong>storage:</strong> To cache your order data locally for quick access</li>
+        <li><strong>identity:</strong> To authenticate with Gmail for the Instamart feature</li>
+      </ul>
+      
+      <h2>8. Your Rights</h2>
+      <p>You have complete control over your data:</p>
+      <ul>
+        <li>View all cached data within the extension</li>
+        <li>Export your data as CSV anytime</li>
+        <li>Delete cached data with one click</li>
+        <li>Disconnect Gmail access instantly</li>
+        <li>Uninstall the extension to remove all data</li>
+      </ul>
+      
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. Any changes will be reflected in the "Last updated" date at the top of this page.</p>
+      
+      <div class="contact">
+        <p>Questions about this privacy policy?</p>
+        <p>Contact: <a href="https://x.com/piyushdinde" target="_blank">@piyushdinde on Twitter/X</a></p>
+      </div>
+      
+    </div>
+    
+    <footer>
+      <p>Carthole - Built with ☕ by <a href="https://x.com/piyushdinde" target="_blank">PD</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
